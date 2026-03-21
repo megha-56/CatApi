@@ -8,6 +8,7 @@ import { FaHeart, FaCat} from "react-icons/fa";
 
 function App() {
   const [data,setData]=useState("");
+  
 
   const  handleClick=async ()=>{
       
@@ -23,7 +24,7 @@ function App() {
     <>
     <div className='flex flex-col bg-white items-center h-screen w-screen gap-5 mt-20'>
      
-     <h1 className="text-3xl font-bold mb-10 -400 bg-gradient-to-r from-yellow-200 to-yellow-300 bg-[length:100%_40%] bg-no-repeat bg-bottom">Cat Random Image Generator</h1>
+     <h1 className="text-3xl font-bold mb-10 -400 bg-gradient-to-r from-yellow-200 to-yellow-300 bg-[length:100%_40%] bg-no-repeat bg-bottom"> Random Cat Image Generator</h1>
 
     {data && (
      
@@ -37,7 +38,7 @@ function App() {
       
     )}
 
-    <button className='border rounded-3xl px-4 py-3 font-bold bg-gray-300 shadow-2xl' onClick={handleClick} >click</button>
+    <button className="border rounded-3xl px-4 py-3 font-bold shadow-2xl transition active:bg-yellow-400 bg-gray-300" onClick={handleClick} > New Image</button>
     </div>
     
     </>
