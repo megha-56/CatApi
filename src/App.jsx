@@ -31,8 +31,8 @@ function App() {
       <div className='border h-100 w-100 flex flex-col shadow-2xl items-center pt-20 rounded-2xl'>
       <img className="h-60 w-60 shadow-md rounded-2xl" src={data.url} alt="image"/>
       <div className='flex mt-7 mr-65'>
-      <FaCat className="text-gray-700 text-3xl mr-4" />
-      <FaHeart className="text-red-500 text-3xl" /> 
+      <FaCat className="text-gray-700 text-3xl mr-4 bg-black text-white" />
+      <FaHeart className="text-white bg-red-500 text-3xl border" /> 
       </div>
       </div>
       
